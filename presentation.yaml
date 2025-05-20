@@ -11,11 +11,7 @@ spec:
         - Apply resources/workloads with yaml specs
         - Services, deployments, ingress
         - GitOps
-    - title: "Kubernetes re-cap"
-      bullets:
-        - use e.g. argoCD to continuously apply resources defined in GitOps repository
-    - title: "Kubernetes re-cap"
-      images:
+    - images:
         - https://kubernetes.io/images/docs/components-of-kubernetes.svg
 
     - title: "Operator pattern?"
