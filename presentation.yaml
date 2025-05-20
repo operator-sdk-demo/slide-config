@@ -4,6 +4,7 @@ metadata:
   name: presentation-sample
 spec:
   slides:
+    - title: "Operator-sdk: Why and how to make custom resources"
     - title: "Kubernetes re-cap"
       bullets:
         - Orchestrator
@@ -16,7 +17,7 @@ spec:
     - title: "Operator pattern"
       images:
         - "https://iximiuz.com/kubernetes-operator-pattern/kube-control-loop-3000-opt.png"
-    - title: "Custom resources"
+    - title: "Custom resources (CRDs)"
       bullets:
         - Extension of kubernetes' operators and their API
         - Defines the interface of what an object should look like.
