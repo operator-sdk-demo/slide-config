@@ -7,5 +7,5 @@ kind: Kustomization
 images:
   - name: app
     newName: ghcr.io/operator-sdk-demo/slide-controller
-    newTag: caacd2405d7bd56ff73d38b64ceafc01965e5013
+    newTag: d90f12409ca29dc8773056a74abe1b8ae50266c6
 apiVersion: kustomize.config.k8s.io/v1beta1
