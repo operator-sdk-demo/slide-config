@@ -14,9 +14,10 @@ spec:
     - title: "Kubernetes re-cap"
       bullets:
         - use e.g. argoCD to continuously apply resources defined in GitOps repository
+    - title: "Kubernetes re-cap"
+      images:
+        - https://kubernetes.io/images/docs/components-of-kubernetes.svg
 
-    - title: "What is the operator pattern?"
-      bullets:
-        - Encapsulates operational logic
+    - title: "Operator pattern?"
       images:
         - "https://iximiuz.com/kubernetes-operator-pattern/kube-control-loop-3000-opt.png"
