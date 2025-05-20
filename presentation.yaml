@@ -4,6 +4,7 @@ metadata:
   name: presentation-sample
 spec:
   slides:
+    - title: "Operator-sdk: Why and how to make custom resources"
     - title: "Kubernetes re-cap"
       bullets:
         - Orchestrator
@@ -11,11 +12,33 @@ spec:
         - Apply resources/workloads with yaml specs
         - Services, deployments, ingress
         - GitOps
-        - use e.g. argoCD to continuously apply resources defined in GitOps repository
-        - Kubernetes has controllers that reads the resource manifests, reacts and updates the cluster accordingly
-
-    - title: "What is the operator pattern?"
-      bullets:
-        - Encapsulates operational logic
+    - images:
+        - https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/673f4107a915916cd43fbdf8_646786e5646162c532696293_661.2.jpeg
+    - title: "Operator pattern"
       images:
         - "https://iximiuz.com/kubernetes-operator-pattern/kube-control-loop-3000-opt.png"
+    - title: "Custom resources (CRDs)"
+      bullets:
+        - Extension of kubernetes' operators and their API
+        - Defines the interface of what an object should look like.
+        - Controller/operator reacts to objects
+    - title: "Example"
+      images:
+        - https://i.imgur.com/JPhVHMw.png
+    - title: "Operator SDK"
+      bullets:
+        - Tooling/framework for developing operators
+        - CLI for handling boilerplate
+        - Reconcilliation loop written in golang
+        - Auto-generate manifests
+        - Define the CRD through golang type
+    - title: "Why Operator SDK?"
+      bullets:
+        - Standardized way to build Kubernetes operators
+        - Reduces boilerplate code and development time
+        - Built-in best practices and patterns
+        - Simplified testing and validation
+        - Automatic generation of CRD manifests and RBAC rules
+        - Strong community support and ecosystem
+        - Automates operational logic in controllers
+    - title: "DEMO"
