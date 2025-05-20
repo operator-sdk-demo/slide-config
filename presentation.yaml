@@ -12,7 +12,7 @@ spec:
         - Services, deployments, ingress
         - GitOps
     - images:
-        - https://kubernetes.io/images/docs/components-of-kubernetes.svg
+        - https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/673f4107a915916cd43fbdf8_646786e5646162c532696293_661.2.jpeg
     - title: "Operator pattern"
       images:
         - "https://iximiuz.com/kubernetes-operator-pattern/kube-control-loop-3000-opt.png"
