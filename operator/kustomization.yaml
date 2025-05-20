@@ -1,9 +1,10 @@
 namePrefix: slide-controller-
 resources:
-  - deployment.yaml
+- deployment.yaml
 
 kind: Kustomization
 images:
-  - name: app
-    newName: nginx
-    newTag: latest
+- name: app
+  newName: ghcr.io/operator-sdk-demo/slide-controller
+  newTag: caacd2405d7bd56ff73d38b64ceafc01965e5013
+apiVersion: kustomize.config.k8s.io/v1beta1
