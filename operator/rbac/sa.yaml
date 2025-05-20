@@ -3,3 +3,4 @@ kind: ServiceAccount
 metadata:
   labels:
   name: controller-manager
+  namespace: presentation-system

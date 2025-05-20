@@ -1,4 +1,6 @@
 resources:
+  - leader-election-role.yaml
+  - leader-election-role-binding.yaml
   - role-binding.yaml
   - role.yaml
   - sa.yaml
