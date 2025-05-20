@@ -1,0 +1,9 @@
+namePrefix: slide-controller-
+resources:
+  - deployment.yaml
+
+kind: Kustomization
+images:
+  - name: app
+    newName: nginx
+    newTag: latest
