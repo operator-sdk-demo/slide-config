@@ -1,11 +1,11 @@
 resources:
-  - deployment.yaml
-  - rbac
-  - crd
+- deployment.yaml
+- rbac
+- crd
 
 kind: Kustomization
 images:
-  - name: app
-    newName: ghcr.io/operator-sdk-demo/slide-controller
-    newTag: d90f12409ca29dc8773056a74abe1b8ae50266c6
+- name: app
+  newName: ghcr.io/operator-sdk-demo/slide-controller
+  newTag: d72aa55f0f6a91010bf36bc90c7afd11d8eb4aca
 apiVersion: kustomize.config.k8s.io/v1beta1
