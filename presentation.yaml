@@ -32,3 +32,13 @@ spec:
         - Reconcilliation loop written in golang
         - Auto-generate manifests
         - Define the CRD through golang type
+    - title: "Why Operator SDK?"
+      bullets:
+        - Standardized way to build Kubernetes operators
+        - Reduces boilerplate code and development time
+        - Built-in best practices and patterns
+        - Simplified testing and validation
+        - Automatic generation of CRD manifests and RBAC rules
+        - Strong community support and ecosystem
+        - Automates operational logic in controllers
+    - title: "DEMO"
