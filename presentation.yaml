@@ -23,7 +23,7 @@ spec:
         - Controller/operator reacts to objects
     - title: "Example"
       images:
-        - https://imgur.com/a/EiSc9H2
+        - https://i.imgur.com/JPhVHMw.png
     - title: "Operator SDK"
       bullets:
         - Tooling/framework for developing operators
