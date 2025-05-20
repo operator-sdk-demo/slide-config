@@ -30,3 +30,5 @@ spec:
         - Tooling/framework for developing operators
         - CLI for handling boilerplate
         - Reconcilliation loop written in golang
+        - Auto-generate manifests
+        - Define the CRD through golang type
