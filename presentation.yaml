@@ -38,6 +38,7 @@ spec:
         - Reduces boilerplate code and development time
         - Built-in best practices and patterns
         - Simplified testing and validation
+    - bullets:
         - Automatic generation of CRD manifests and RBAC rules
         - Strong community support and ecosystem
         - Automates operational logic in controllers
