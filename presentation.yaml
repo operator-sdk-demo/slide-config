@@ -13,7 +13,19 @@ spec:
         - GitOps
     - images:
         - https://kubernetes.io/images/docs/components-of-kubernetes.svg
-
     - title: "Operator pattern"
       images:
         - "https://iximiuz.com/kubernetes-operator-pattern/kube-control-loop-3000-opt.png"
+    - title: "Custom resources"
+      bullets:
+        - Extension of kubernetes' operators and their API
+        - Defines the interface of what an object should look like.
+        - Controller/operator reacts to objects
+    - title: "Example"
+      images:
+        - https://imgur.com/a/EiSc9H2
+    - title: "Operator SDK"
+      bullets:
+        - Tooling/framework for developing operators
+        - CLI for handling boilerplate
+        - Reconcilliation loop written in golang
