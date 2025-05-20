@@ -14,6 +14,6 @@ spec:
     - images:
         - https://kubernetes.io/images/docs/components-of-kubernetes.svg
 
-    - title: "Operator pattern?"
+    - title: "Operator pattern"
       images:
         - "https://iximiuz.com/kubernetes-operator-pattern/kube-control-loop-3000-opt.png"
