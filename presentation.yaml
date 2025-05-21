@@ -38,6 +38,14 @@ spec:
         - Native Kubernetes experience
         - Reduce operational overhead
         - Domain-specific abstractions
+        - "Use cases: provisioning databases, Message que"
+    - title: Use cases?
+      bullets:
+        - Provisining databases
+        - Provisioning message queues
+        - Abstracting complexity
+        - Managing external resources
+        - Generally when native kube resources become too complicated
     - title: "Operator SDK"
       bullets:
         - Tooling/framework for developing operators
