@@ -22,8 +22,7 @@ spec:
         - Tells Kubernetes API what the resource looks like
         - Comparable to a class/model definition
 
-    - title: "Example"
-      images:
+    - images:
         - https://i.imgur.com/bJlBMCh.png
 
     - title: "Custom Resources"
@@ -31,8 +30,7 @@ spec:
         - An instance of the CRD
         - Comparable to a an object created of the class/CRD
         - Controller/operator reacts to a custom resource
-    - title: "Example"
-      images:
+    - images:
         - https://i.imgur.com/frcjcUS.png
     - title: "Operator SDK"
       bullets:
