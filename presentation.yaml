@@ -17,14 +17,23 @@ spec:
     - title: "Operator pattern"
       images:
         - "https://iximiuz.com/kubernetes-operator-pattern/kube-control-loop-3000-opt.png"
-    - title: "Custom resources (CRDs)"
+    - title: "Custom resource definition (CRDs)"
       bullets:
-        - Extension of kubernetes' operators and their API
-        - Defines the interface of what an object should look like.
-        - Controller/operator reacts to objects
+        - Tells Kubernetes API what the resource looks like
+        - Comparable to a class/model definition
+
     - title: "Example"
       images:
-        - https://i.imgur.com/JPhVHMw.png
+        - https://i.imgur.com/bJlBMCh.png
+
+    - title: "Custom Resources"
+      bullets:
+        - An instance of the CRD
+        - Comparable to a an object created of the class/CRD
+        - Controller/operator reacts to a custom resource
+    - title: "Example"
+      images:
+        - https://i.imgur.com/frcjcUS.png
     - title: "Operator SDK"
       bullets:
         - Tooling/framework for developing operators
@@ -38,6 +47,7 @@ spec:
         - Reduces boilerplate code and development time
         - Built-in best practices and patterns
         - Simplified testing and validation
+    - bullets:
         - Automatic generation of CRD manifests and RBAC rules
         - Strong community support and ecosystem
         - Automates operational logic in controllers
