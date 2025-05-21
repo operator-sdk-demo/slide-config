@@ -32,19 +32,27 @@ spec:
         - Controller/operator reacts to a custom resource
     - images:
         - https://i.imgur.com/frcjcUS.png
+    - title: Why create custom resources?
+      bullets:
+        - Automation of operational knowledge
+        - Native Kubernetes experience
+        - Reduce operational overhead
+        - Domain-specific abstractions
     - title: "Operator SDK"
       bullets:
         - Tooling/framework for developing operators
+        - Possible to create with helm, kustomize and golang
+    - title: "Operator SDK - golang"
+      bullets:
         - CLI for handling boilerplate
-        - Reconcilliation loop written in golang
+        - Define the CRD through golang types
+        - Write the reconciliation loop
         - Auto-generate manifests
-        - Define the CRD through golang type
     - title: "Why Operator SDK?"
       bullets:
         - Standardized way to build Kubernetes operators
-        - Reduces boilerplate code and development time
-        - Built-in best practices and patterns
-        - Simplified testing and validation
+        - Handles boilerplate when writing controllers/operators
+        - freedom to implement logic and integrate any tooling/system
     - bullets:
         - Automatic generation of CRD manifests and RBAC rules
         - Strong community support and ecosystem
