@@ -5,7 +5,7 @@ metadata:
 spec:
   slides:
     - title: "Operator-sdk: Why and how to make custom resources"
-    - title: "Kubernetes re-cap"
+    - title: "Kubernetes recap"
       bullets:
         - Orchestrator
         - Microservices
