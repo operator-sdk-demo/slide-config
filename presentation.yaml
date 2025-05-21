@@ -56,4 +56,8 @@ spec:
         - Kubernetes is written in golang
         - strong typing for all resources instead of relying on yaml
         - DRY
+    - bullets:
+        - Performant
+        - Ecosystem
+        - All benefits of the go programming language
     - title: "DEMO"
