@@ -51,10 +51,9 @@ spec:
     - title: "Why Operator SDK?"
       bullets:
         - Standardized way to build Kubernetes operators
-        - Handles boilerplate when writing controllers/operators
+        - Takes care of boilerplate code
         - freedom to implement logic and integrate any tooling/system
-    - bullets:
-        - Automatic generation of CRD manifests and RBAC rules
-        - Strong community support and ecosystem
-        - Automates operational logic in controllers
+        - Kubernetes is written in golang
+        - strong typing for all resources instead of relying on yaml
+        - DRY
     - title: "DEMO"
